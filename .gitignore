@@ -1,0 +1,9 @@
+.idea
+.DS_Store
+.circleci
+data
+habitat-challenge-data
+images
+script
+train
+

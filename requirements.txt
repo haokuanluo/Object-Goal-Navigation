@@ -1,0 +1,7 @@
+numpy
+tensorboard
+torch
+torchvision
+matplotlib
+pandas
+pickle-mixin
