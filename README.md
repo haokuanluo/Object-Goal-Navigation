@@ -4,12 +4,24 @@
 
 
 
-This is the github repo for object goal navigation. It contains three main components:
+This is the github repo for object goal navigation. 
+Relevant slides here:
+https://docs.google.com/presentation/d/13wQzR7tyTturqT3OrSdyazLxug4H2qGgFhTbW7jbOJU/edit?usp=sharing
+https://docs.google.com/presentation/d/1JsJmgiPsuxAnhRojbDu4WZ4hLpJfO1NG3zvqu1rJ2Nw/edit?usp=sharing
+
+
+It contains three main components:
+The first part is the adapted neural slam. Neural SLAM is the foundation of the series of the papers by Chaplot, who wins the habitat challenge in both 2020 and 2021. Neural SLAM is originally designed to be a framework for point goal navigation, and it needs to be modified to work for object goal navigation.
+
+I first modified the neural SLAM myself to make it work for object goal navigation (part 1), before the author released his implementation (part 2).
+
+I did testing on both implementation and the results are similar.
+
+See more details about each module below.
 
 
 
 ### 1. Adapted Neural SLAM
-
 
 
 [Learning To Explore Using Active Neural SLAM](https://openreview.net/pdf?id=HklXn1BKDH)<br />
