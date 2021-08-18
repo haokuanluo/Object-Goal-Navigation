@@ -44,7 +44,7 @@ To run:
 
 The code requires datasets in a `data` folder in the following format (same as habitat-api):
 ```
-Neural-SLAM/
+Object-Goal-Navigation/
   data/
     scene_datasets/
       gibson/
