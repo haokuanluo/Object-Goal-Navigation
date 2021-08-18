@@ -39,7 +39,7 @@ To run:
 
 ### Data:
 
-####For running Number 1 and Number 2(Modified Neural SLAM and the semantic training models):
+#### For running Number 1 and Number 2(Modified Neural SLAM and the semantic training models):
 
 
 The code requires datasets in a `data` folder in the following format (same as habitat-api):
@@ -63,18 +63,18 @@ Please download the data using the instructions here: https://github.com/faceboo
 
 
 #### For running Number 2(Object Goal Navigation):
-### Downloading scene dataset
+#### Downloading scene dataset
 - Download the Gibson dataset using the instructions here: https://github.com/facebookresearch/habitat-lab#scenes-datasets (download the 11GB file `gibson_habitat_trainval.zip`)
 - Move the Gibson scene dataset or create a symlink at `data/scene_datasets/gibson_semantic`. 
 
-### Downloading episode dataset
+#### Downloading episode dataset
 - Download the episode dataset:
 ```
 wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=1tslnZAkH8m3V5nP8pbtBmaR2XEfr8Rau' -O objectnav_gibson_v1.1.zip
 ```
 - Unzip the dataset into `data/datasets/objectnav/gibson/v1.1/`
 
-### Setting up datasets
+#### Setting up datasets
 The code requires the datasets in a `data` folder in the following format (same as habitat-lab):
 ```
 Object-Goal-Navigation/
