@@ -37,3 +37,23 @@ To run:
 
 `sh semantic_run.sh`
 
+### Data:
+The code requires datasets in a `data` folder in the following format (same as habitat-api):
+```
+Object-Goal-Navigation/
+  data/
+    scene_datasets/
+      gibson/
+        Adrian.glb
+        Adrian.navmesh
+        ...
+    datasets/
+      pointnav/
+        gibson/
+          v1/
+            train/
+            val/
+            ...
+```
+Please download the data using the instructions here: https://github.com/facebookresearch/habitat-api#data
+
