@@ -39,7 +39,30 @@ To run:
 
 ### Data:
 
+##For running Number 1 and Number 2(Modified Neural SLAM and the semantic training models):
 
+
+The code requires datasets in a `data` folder in the following format (same as habitat-api):
+```
+Neural-SLAM/
+  data/
+    scene_datasets/
+      gibson/
+        Adrian.glb
+        Adrian.navmesh
+        ...
+    datasets/
+      pointnav/
+        gibson/
+          v1/
+            train/
+            val/
+            ...
+```
+Please download the data using the instructions here: https://github.com/facebookresearch/habitat-api#data
+
+
+## For running Number 2(Object Goal Navigation):
 ### Downloading scene dataset
 - Download the Gibson dataset using the instructions here: https://github.com/facebookresearch/habitat-lab#scenes-datasets (download the 11GB file `gibson_habitat_trainval.zip`)
 - Move the Gibson scene dataset or create a symlink at `data/scene_datasets/gibson_semantic`. 
